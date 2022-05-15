@@ -3,6 +3,11 @@
   margin: 0;
 }
 
-h1 {
-  color: blue;
+body {
+  background-color: black;
+  color: greenyellow;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

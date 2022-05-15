@@ -41,12 +41,25 @@
 // this says that this variable's value doesnt exist
 
 // -----------------TYPE OF------------------
-console.log(typeof 88);
-console.log(typeof "hello");
-console.log(typeof true);
-console.log(typeof [1, 77]);
+// console.log(typeof 88);
+// console.log(typeof "hello");
+// console.log(typeof true);
+// console.log(typeof [1, 77]);
 // console.log(typeof null); => returns null
-console.log(typeof undefined);
-console.log(
-  typeof 1111111111111111111111111111111111111111111111111111111111111111111111n
-);
+// console.log(typeof undefined);
+// console.log(
+//   typeof 1111111111111111111111111111111111111111111111111111111111111111111111n
+// );
+
+// -------------MATH OPERATORS----------------
+// let temp = 1;
+// temp = temp + 3;
+// console.log(temp);
+
+// temp = temp ** 2;
+// console.log(temp);
+
+// increment & decrement
+// let temp = 1;
+// temp++;
+// console.log(temp);
