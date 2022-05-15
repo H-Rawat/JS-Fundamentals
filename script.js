@@ -1,4 +1,4 @@
-// VARIABLES
+// ----------------VARIABLES-------------------
 // let or const
 
 // - cant assign a const any value again
@@ -16,7 +16,7 @@
 // let temp = 11;
 // console.log(temp);
 
-// DATA TYPES
+// -----------DATA TYPES-----------------
 // string
 // const myString = "hey";
 
@@ -39,3 +39,14 @@
 // null
 // let tempVar = null;
 // this says that this variable's value doesnt exist
+
+// -----------------TYPE OF------------------
+console.log(typeof 88);
+console.log(typeof "hello");
+console.log(typeof true);
+console.log(typeof [1, 77]);
+// console.log(typeof null); => returns null
+console.log(typeof undefined);
+console.log(
+  typeof 1111111111111111111111111111111111111111111111111111111111111111111111n
+);
