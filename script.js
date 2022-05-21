@@ -63,3 +63,27 @@
 // let temp = 1;
 // temp++;
 // console.log(temp);
+
+// ----------------FUNCTIONS------------------
+// function makeConsoleLog() {
+//   console.log("this is a function");
+//   console.log("total count");
+//   console.log("typing on a tv 😎");
+// }
+
+// makeConsoleLog();
+
+// array
+// let myFriends = [];
+
+// function addMyFriends(friend) {
+//   myFriends.push(friend);
+//   console.log(myFriends);
+// }
+
+// addMyFriends("luffy");
+// addMyFriends("zoro");
+
+// let tempArray = [1, 2, 3, 4];
+// tempArray[1] = "edited";
+// console.log(tempArray);
