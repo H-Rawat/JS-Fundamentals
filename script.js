@@ -87,3 +87,13 @@
 // let tempArray = [1, 2, 3, 4];
 // tempArray[1] = "edited";
 // console.log(tempArray);
+
+//---------------EQUALITY-----------------
+console.log(1 === 1);
+console.log(1 == "1");
+
+// always use ===
+// === also compares the data type
+// == typecasts the value
+
+// ---------------OBJECTS-----------------
