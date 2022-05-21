@@ -97,15 +97,45 @@
 // == typecasts the value
 
 // ---------------OBJECTS-----------------
-const myobj = {
-  keyname: "value",
-  keyname2: "value",
-  keyname3: function () {
-    return "keyname3";
-  },
-};
+// const myobj = {
+//   keyname: "value",
+//   keyname2: "value",
+//   keyname3: function () {
+//     return "keyname3";
+//   },
+// };
 
-console.log(myobj);
+// console.log(myobj);
 
 // dont need to have quotes around the key name if it doesnt have any whitespace
 // accessing a value of an obj -> obj.keyName or obj[keyName]
+
+// --------CALL BY REFERENCE-----------
+
+// in case of primitive data types - num, bool, string, big int
+// let num = 100;
+// let num2 = 200;
+// function primitiveMutate(primitive) {
+//   primitive++; // this is a copy of the num and num2 and the original num and num2
+//   console.log(primitive);
+// }
+// primitiveMutate(num);
+// console.log(num);
+// primitiveMutate(num2);
+// console.log(num2);
+
+// in case of objects
+// const profile = {
+//   name: "luffy",
+//   age: 11,
+// };
+
+// function mutate(obj) {
+//   obj.age++; // this will effect the original value in the object as well
+//   console.log(obj.age);
+// }
+
+// mutate(profile);
+// console.log(profile);
+
+// THIS IS BECAUSE OBJ WORKS IS BY REFERENCE(an address is passed)
