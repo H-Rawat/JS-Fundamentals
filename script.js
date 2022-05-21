@@ -89,11 +89,23 @@
 // console.log(tempArray);
 
 //---------------EQUALITY-----------------
-console.log(1 === 1);
-console.log(1 == "1");
+// console.log(1 === 1);
+// console.log(1 == "1");
 
 // always use ===
 // === also compares the data type
 // == typecasts the value
 
 // ---------------OBJECTS-----------------
+const myobj = {
+  keyname: "value",
+  keyname2: "value",
+  keyname3: function () {
+    return "keyname3";
+  },
+};
+
+console.log(myobj);
+
+// dont need to have quotes around the key name if it doesnt have any whitespace
+// accessing a value of an obj -> obj.keyName or obj[keyName]
