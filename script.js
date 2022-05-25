@@ -164,3 +164,68 @@
 // this is also know as variable shadowing as myAge = 25 is shadowing the myAge = 22;
 
 // printMyAge();
+
+// ---------------- DOCUMENT OBJECT MODEL ----------------
+// document object -
+
+// console.log(document); //what JS does is that creates a tree like representation of HTML doc
+// that u have sent it and calls it document object model
+
+// DOM is a programmatic representation of the HTML document
+
+// -------------- QUERY SELECTOR ---------------
+// const heading = document.querySelector(".heading1");
+// // heading is holding a reference to the h1 in the DOM
+// heading.innerText = "hello bro";
+// console.log(heading);
+
+// ---------------- QUERYSELECTOR ALL------------
+// const allListItems = document.querySelector("ul li");
+// // only returns first element
+// console.log(allListItems);
+
+// const allListItems1 = document.querySelectorAll("ul li");
+// console.log(allListItems1);
+
+// for (let i = 0; i < allListItems1.length; i++) {
+//   const listItem = allListItems1[i];
+//   listItem.innerText = "yooo";
+// }
+
+// MORE ON TRAVERSING
+// const para = document.querySelector("#para");
+// console.log(para);
+
+// this is slightly more performant than queryselector
+// because this creates a hash map of the ids on the page with their corresponding references
+// const para = document.getElementById("para");
+// console.log(para);
+
+// const ul = document.querySelector("ul");
+// const li = ul.querySelectorAll("li");
+
+// we can use query selector and query selector all with any node of the DOM
+// and JS doesnt allow us to use getElementById with the node of the DOM but only with the
+// document
+
+// ----------- EVENT LISTENERS ------------------
+// const incrementButton = document.querySelector("#increment");
+// const decrementButton = document.querySelector("#decrement");
+
+// let counter = 0;
+// function incrementCounter() {
+//   const counterElement = document.getElementById("counter");
+//   counter++;
+//   counterElement.innerText = counter;
+//   console.log("run");
+// }
+
+// function decrementCounter() {
+//   const counterElement = document.getElementById("counter");
+//   counter--;
+//   counterElement.innerText = counter;
+//   console.log("run");
+// }
+
+// incrementButton.addEventListener("click", incrementCounter);
+// decrementButton.addEventListener("click", decrementCounter);

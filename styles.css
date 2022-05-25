@@ -9,5 +9,21 @@ body {
   height: 100vh;
   display: flex;
   align-items: center;
+  flex-direction: column;
   justify-content: center;
+  row-gap: 2rem;
+}
+
+ul li {
+  font-size: 2rem;
+}
+
+button {
+  padding: 1rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+  background-color: blue;
+  cursor: pointer;
 }
