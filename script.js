@@ -141,14 +141,26 @@
 // THIS IS BECAUSE OBJ WORKS IS BY REFERENCE(an address is passed)
 
 // ----------------SCOPE-----------------
-function x() {
-  const hello = "world";
+// function x() {
+//   const hello = "world";
 
-  if (true) console.log(hello);
+//   if (true) console.log(hello);
 
-  console.log(hello);
-}
+//   console.log(hello);
+// }
 
-x();
+// x();
 // console.log(hello); // this throws an error because of the scope of the hello variable is
 // inside the function x only.
+
+// ---------------VARIABLE SHADOWING-----------------
+// const myAge = 22;
+// function printMyAge() {
+//   const myAge = 25;
+//   console.log(myVar);
+// }
+
+// doing this wont give any error because you are creating a variable in a different scope here
+// this is also know as variable shadowing as myAge = 25 is shadowing the myAge = 22;
+
+// printMyAge();
