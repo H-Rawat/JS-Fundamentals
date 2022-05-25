@@ -139,3 +139,16 @@
 // console.log(profile);
 
 // THIS IS BECAUSE OBJ WORKS IS BY REFERENCE(an address is passed)
+
+// ----------------SCOPE-----------------
+function x() {
+  const hello = "world";
+
+  if (true) console.log(hello);
+
+  console.log(hello);
+}
+
+x();
+// console.log(hello); // this throws an error because of the scope of the hello variable is
+// inside the function x only.
