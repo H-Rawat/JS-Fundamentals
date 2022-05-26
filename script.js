@@ -229,3 +229,49 @@
 
 // incrementButton.addEventListener("click", incrementCounter);
 // decrementButton.addEventListener("click", decrementCounter);
+
+// ------------CREATE & REMOVE ELEMENT-------------
+// const incrementButton = document.querySelector("#increment");
+// const decrementButton = document.querySelector("#decrement");
+// const counterElement = document.getElementById("counter");
+// let counter = 0;
+// const ulElement = document.getElementById("list-items");
+// function incrementCounter() {
+//   counter++;
+//   counterElement.innerText = counter;
+//   // // create an element
+//   // const li = document.createElement("li");
+//   // const b = document.createElement("b");
+//   // const textNode = document.createTextNode("sentence");
+//   // b.appendChild(textNode);
+//   // const counterNode = document.createTextNode(counter);
+//   // li.appendChild(b);
+//   // li.appendChild(counterNode);
+//   // // append it
+//   // ulElement.appendChild(li);
+
+//   const li = document.createElement("li");
+//   li.setAttribute("data-counter", counter);
+//   li.innerHTML = "<b>something</b> - " + counter;
+//   console.log(li);
+//   ulElement.appendChild(li);
+// }
+
+// function decrementCounter() {
+//   const li = ulElement.querySelector('[data-counter="' + counter + '"]');
+//   const number = parseInt(li.getAttribute("data-counter"), 10);
+//   if (number % 2 === 0) {
+//     li.remove();
+//   }
+//   // li.remove();
+//   counter--;
+//   counterElement.innerText = counter;
+// }
+
+// incrementButton.addEventListener("click", incrementCounter);
+// decrementButton.addEventListener("click", decrementCounter);
+
+// ------------------- CSS STLYE MANIPULATION -----------------
+// const li = document.querySelector("li");
+// li.style.background = "blue";
+// li.style.padding = "10px";
