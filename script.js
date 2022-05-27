@@ -345,3 +345,16 @@
 // friends.forEach((friend) => {
 //   console.log(friend);
 // });
+
+// ------------------ TEMPLATE LITERALS ----------------
+// const aboutMe = `hello,
+// this is me`;
+// console.log(aboutMe);
+
+// const person = { name: "luffy", age: 16 };
+// const aboutMe =
+//   "my name is " + person.name + " and I am " + person.age + " years old";
+// console.log(aboutMe);
+
+// const aboutMeUsingTL = `my name is ${person.name} and I am ${person.age} years old`;
+// console.log(aboutMeUsingTL);
