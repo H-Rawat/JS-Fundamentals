@@ -297,12 +297,51 @@
 // by default JS takes all the functions and hoists them to the top
 // for eg- this is compeletely valid syntax
 
-likeThis();
-function likeThis() {
-  return false;
-}
+// likeThis();
+// function likeThis() {
+//   return false;
+// }
 
 // This thing doesnt happen in the case of arrow functions
-const arrowfunc = () => {
-  return false;
-};
+// const arrowfunc = () => {
+//   return false;
+// };
+
+// ---------------- ARRAY FUNCTIONS ------------------
+// const arr = [1, 2, 3, 4, 5, 6, 7, 8];
+
+// FOR LOOP
+// for (let i = 0; i < arr.length; i++) {
+//   console.log(i);
+// }
+
+// MAP
+// const mappedArr = arr.map((element) => element ** 2);
+// console.log(mappedArr);
+
+// FILTER
+// if true will return an element
+// const filteredArr = arr.filter((element) => element > 3);
+// console.log(filteredArr);
+
+// const friends = [
+//   {
+//     name: "x",
+//     age: 11,
+//   },
+//   {
+//     name: "y",
+//     age: 12,
+//   },
+//   { name: "z", age: 13 },
+// ];
+
+// console.log(friends.filter((element) => element.age > 11));
+
+// FIND
+// console.log(friends.find((friend) => friend.name === "x"));
+
+// FOR EACH
+// friends.forEach((friend) => {
+//   console.log(friend);
+// });
