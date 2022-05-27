@@ -358,3 +358,14 @@
 
 // const aboutMeUsingTL = `my name is ${person.name} and I am ${person.age} years old`;
 // console.log(aboutMeUsingTL);
+
+// -------- PROMISES & FETCH -----------
+// FETCH API FROM THE BROWSER
+// const promiseObj = fetch("/data.json"); //takes in a URL and this returns a promise object which says that in future it ll have a definitive value
+
+// // if promise resolves then this 'then' runs and 'data' is what this promise resolves to
+// promiseObj.then((response) => {
+//   // console.log(response);
+//   const promiseObj2 = response.json(); //this also returns a promise json() is used to parse the response as JSON
+//   promiseObj2.then((data) => console.log(data));
+// });
