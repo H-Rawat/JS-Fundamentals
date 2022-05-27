@@ -275,3 +275,34 @@
 // const li = document.querySelector("li");
 // li.style.background = "blue";
 // li.style.padding = "10px";
+
+// ----------------- ES6 DESTRUCTURING ---------------------
+// const arr1 = [1, 2, 3];
+// const arr2 = [4, 5, 6];
+// const arr3 = [...arr1, ...arr2];
+// console.log(arr3);
+
+// const obj1 = { name: 11 };
+// const obj2 = { age: 22 };
+// const obj3 = { ...obj1, ...obj2 };
+// console.log(obj3);
+
+// if you are destructuring two obj into one and if both the objs contains the same property
+// then the property which comes after will override the one which came before
+
+// if the name of the key and the value is the same then u can just write the name of the key
+// for eg - const tempObj = {name: 'hello', age}
+
+// -------------------- ARROW FUNCTIONS -----------------------
+// by default JS takes all the functions and hoists them to the top
+// for eg- this is compeletely valid syntax
+
+likeThis();
+function likeThis() {
+  return false;
+}
+
+// This thing doesnt happen in the case of arrow functions
+const arrowfunc = () => {
+  return false;
+};
